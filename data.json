@@ -1,0 +1,345 @@
+[
+  {
+    "id": 1,
+    "name": "Ahmet Yılmaz",
+    "studentNumber": "2023001",
+    "class": "10A",
+    "details": {
+      "grade": "A",
+      "attendance": "95%",
+      "notes": "Özellikle matematik ve fen derslerinde başarılı.",
+      "contact": {
+        "email": "ahmet.yilmaz@example.com",
+        "phone": "+90 555 123 4567",
+        "address": "İstanbul, Türkiye"
+      },
+      "extraActivities": ["Futbol Takımı"]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Elif Demir",
+    "studentNumber": "2023002",
+    "class": "10B",
+    "details": {
+      "grade": "B",
+      "attendance": "90%",
+      "notes": "Sanat ve edebiyat derslerinde ilgi gösteriyor.",
+      "contact": {
+        "email": "elif.demir@example.com",
+        "phone": "+90 555 234 5678",
+        "address": "Ankara, Türkiye"
+      },
+      "extraActivities": ["Resim Kulübü", "Tiyatro"]
+    }
+  },
+  {
+    "id": 3,
+    "name": "Mehmet Kaya",
+    "studentNumber": "2023003",
+    "class": "11A",
+    "details": {
+      "grade": "C",
+      "attendance": "85%",
+      "notes": "Genel olarak iyi ancak bazı derslerde daha fazla çalışması gerekiyor.",
+      "contact": {
+        "email": "mehmet.kaya@example.com",
+        "phone": "+90 555 345 6789",
+        "address": "İzmir, Türkiye"
+      },
+      "extraActivities": ["Bilim Fuarı", "Müzik Grubu"]
+    }
+  },
+  {
+    "id": 4,
+    "name": "Zeynep Öztürk",
+    "studentNumber": "2023004",
+    "class": "11B",
+    "details": {
+      "grade": "A",
+      "attendance": "98%",
+      "notes": "Derslerde çok başarılı, liderlik özellikleri taşıyor.",
+      "contact": {
+        "email": "zeynep.ozturk@example.com",
+        "phone": "+90 555 456 7890",
+        "address": "Bursa, Türkiye"
+      },
+      "extraActivities": ["Yüzme Takımı", "Genç Girişimciler Kulübü"]
+    }
+  },
+  {
+    "id": 5,
+    "name": "Ali Can",
+    "studentNumber": "2023005",
+    "class": "10A",
+    "details": {
+      "grade": "B",
+      "attendance": "88%",
+      "notes": "Fen bilimlerinde başarılı, ama matematikte zayıf.",
+      "contact": {
+        "email": "ali.can@example.com",
+        "phone": "+90 555 567 8901",
+        "address": "Konya, Türkiye"
+      },
+      "extraActivities": ["Robot Kulübü", "Dağcılık"]
+    }
+  },
+  {
+    "id": 6,
+    "name": "Ayşe Çelik",
+    "studentNumber": "2023006",
+    "class": "10B",
+    "details": {
+      "grade": "A",
+      "attendance": "92%",
+      "notes": "Yazılı ve sözlü sınavlarda yüksek başarı.",
+      "contact": {
+        "email": "ayse.celik@example.com",
+        "phone": "+90 555 678 9012",
+        "address": "Adana, Türkiye"
+      },
+      "extraActivities": ["Edebiyat Kulübü", "Koro"]
+    }
+  },
+  {
+    "id": "7",
+    "name": "Mert Yalçın",
+    "studentNumber": "2023007",
+    "class": "11A",
+    "details": {
+      "grade": "C",
+      "attendance": "80%",
+      "notes": "Derslerde ortalamanın altında kalıyor.",
+      "contact": {
+        "email": "mert.yalcin@example.com",
+        "phone": "+90 555 789 0123",
+        "address": "Antalya, Türkiye"
+      },
+      "extraActivities": ["Sinema Kulübü", "Fotoğrafçılık"]
+    }
+  },
+  {
+    "id": "8",
+    "name": "Elif Yılmaz",
+    "studentNumber": "2023008",
+    "class": "11B",
+    "details": {
+      "grade": "B",
+      "attendance": "85%",
+      "notes": "Matematik ve edebiyat derslerinde başarı.",
+      "contact": {
+        "email": "elif.yilmaz@example.com",
+        "phone": "+90 555 890 1234",
+        "address": "Bolu, Türkiye"
+      },
+      "extraActivities": ["Yüzme Takımı", "Şiir Kulübü"]
+    }
+  },
+  {
+    "id": "9",
+    "name": "Ege Arslan",
+    "studentNumber": "2023009",
+    "class": "10A",
+    "details": {
+      "grade": "A",
+      "attendance": "97%",
+      "notes": "Özellikle spor aktivitelerinde başarılı.",
+      "contact": {
+        "email": "ege.arslan@example.com",
+        "phone": "+90 555 901 2345",
+        "address": "Kayseri, Türkiye"
+      },
+      "extraActivities": ["Futbol Takımı", "Spor Kulübü"]
+    }
+  },
+  {
+    "id": "10",
+    "name": "Burcu Akman",
+    "studentNumber": "2023010",
+    "class": "10B",
+    "details": {
+      "grade": "B",
+      "attendance": "90%",
+      "notes": "Sanat ve tasarım derslerinde ilgi gösteriyor.",
+      "contact": {
+        "email": "burcu.akman@example.com",
+        "phone": "+90 555 012 3456",
+        "address": "Samsun, Türkiye"
+      },
+      "extraActivities": ["Tasarım Kulübü", "Resim"]
+    }
+  },
+  {
+    "id": "11",
+    "name": "Derya Korkmaz",
+    "studentNumber": "2023011",
+    "class": "11A",
+    "details": {
+      "grade": "C",
+      "attendance": "82%",
+      "notes": "Genel olarak ortalama bir performans.",
+      "contact": {
+        "email": "derya.korkmaz@example.com",
+        "phone": "+90 555 123 6789",
+        "address": "Denizli, Türkiye"
+      },
+      "extraActivities": ["Bilim Kulübü", "Satranç"]
+    }
+  },
+  {
+    "id": "12",
+    "name": "Caner Yalçın",
+    "studentNumber": "2023012",
+    "class": "11B",
+    "details": {
+      "grade": "A",
+      "attendance": "94%",
+      "notes": "Matematik ve fen derslerinde yüksek başarı.",
+      "contact": {
+        "email": "caner.yalcin@example.com",
+        "phone": "+90 555 234 6789",
+        "address": "Eskişehir, Türkiye"
+      },
+      "extraActivities": [
+        "Küçükçekmece Bilim Fuarı",
+        "Genç Girişimciler Kulübü"
+      ]
+    }
+  },
+  {
+    "id": "13",
+    "name": "Buse Korkmaz",
+    "studentNumber": "2023013",
+    "class": "10A",
+    "details": {
+      "grade": "B",
+      "attendance": "89%",
+      "notes": "Sanat ve müzik derslerinde ilgi gösteriyor.",
+      "contact": {
+        "email": "buse.korkmaz@example.com",
+        "phone": "+90 555 345 6789",
+        "address": "Aksaray, Türkiye"
+      },
+      "extraActivities": ["Müzik Grubu", "Resim Kulübü"]
+    }
+  },
+  {
+    "id": "14",
+    "name": "Serkan Yılmaz",
+    "studentNumber": "2023014",
+    "class": "10B",
+    "details": {
+      "grade": "C",
+      "attendance": "87%",
+      "notes": "Matematik ve fen derslerinde zayıf.",
+      "contact": {
+        "email": "serkan.yilmaz@example.com",
+        "phone": "+90 555 456 7890",
+        "address": "Manisa, Türkiye"
+      },
+      "extraActivities": ["Basketbol Takımı", "Drama Kulübü"]
+    }
+  },
+  {
+    "id": "15",
+    "name": "Fatma Korkmaz",
+    "studentNumber": "2023015",
+    "class": "10A",
+    "details": {
+      "grade": "B",
+      "attendance": "93%",
+      "notes": "Özellikle dil derslerinde başarılı.",
+      "contact": {
+        "email": "fatma.korkmaz@example.com",
+        "phone": "+90 555 567 8901",
+        "address": "Gaziantep, Türkiye"
+      },
+      "extraActivities": ["Dil Kulübü", "Okuma Kulübü"]
+    }
+  },
+  {
+    "id": "16",
+    "name": "Deniz Arslan",
+    "studentNumber": "2023016",
+    "class": "11A",
+    "details": {
+      "grade": "A",
+      "attendance": "99%",
+      "notes": "Liderlik ve sosyal becerilerde ön planda.",
+      "contact": {
+        "email": "deniz.arslan@example.com",
+        "phone": "+90 555 678 9012",
+        "address": "Muğla, Türkiye"
+      },
+      "extraActivities": ["Model Birleşmiş Milletler", "Debate Kulübü"]
+    }
+  },
+  {
+    "id": "17",
+    "name": "Meltem Yılmaz",
+    "studentNumber": "2023017",
+    "class": "11B",
+    "details": {
+      "grade": "B",
+      "attendance": "88%",
+      "notes": "Sanat ve tasarım derslerinde başarı.",
+      "contact": {
+        "email": "meltem.yilmaz@example.com",
+        "phone": "+90 555 789 0123",
+        "address": "Trabzon, Türkiye"
+      },
+      "extraActivities": ["Resim Kulübü", "Tasarım Kulübü"]
+    }
+  },
+  {
+    "id": "18",
+    "name": "Murat Kılıç",
+    "studentNumber": "2023018",
+    "class": "10A",
+    "details": {
+      "grade": "C",
+      "attendance": "85%",
+      "notes": "Matematik ve fen derslerinde zayıf.",
+      "contact": {
+        "email": "murat.kilic@example.com",
+        "phone": "+90 555 890 1234",
+        "address": "Erzurum, Türkiye"
+      },
+      "extraActivities": ["Satranç Kulübü", "Basketbol Takımı"]
+    }
+  },
+  {
+    "id": "19",
+    "name": "Cem Yılmaz",
+    "studentNumber": "2023019",
+    "class": "10B",
+    "details": {
+      "grade": "A",
+      "attendance": "97%",
+      "notes": "Sosyal bilimler derslerinde ilgi gösteriyor.",
+      "contact": {
+        "email": "cem.yilmaz@example.com",
+        "phone": "+90 555 901 2345",
+        "address": "Çanakkale, Türkiye"
+      },
+      "extraActivities": ["Tarih Kulübü", "Tiyatro"]
+    }
+  },
+  {
+    "id": "20",
+    "name": "Seda Korkmaz",
+    "studentNumber": "2023020",
+    "class": "11A",
+    "details": {
+      "grade": "B",
+      "attendance": "92%",
+      "notes": "Dil ve tarih derslerinde başarılı.",
+      "contact": {
+        "email": "seda.korkmaz@example.com",
+        "phone": "+90 555 012 3456",
+        "address": "Mersin, Türkiye"
+      },
+      "extraActivities": ["Tarih Kulübü", "Okuma Kulübü"]
+    }
+  }
+]

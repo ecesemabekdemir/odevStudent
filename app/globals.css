@@ -1,42 +1,275 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  padding: 0;
+}
+/*
+  2. Remove default margin
+*/
+* {
   margin: 0;
+}
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  5. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  6. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+  7. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/*
+  8. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
 }
 
 a {
-  color: inherit;
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: start;
+}
+
+.content {
+  width: 80%;
+}
+
+.sidebar {
+  width: 20%;
+  padding-block: 20px;
+  padding-top: 180px;
+  h4 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #666;
+    margin-left: 15px;
+  }
+
+  h4:hover {
+  border-left: 3px solid #0070f3;
+  height: 35px;
+  margin-bottom: 30px;
+  color: #666;
   }
 }
+.header {
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #4a90e2;
+  a {
+    color: #4a90e2;
+    font-weight: bold;
+    padding: 10px;
+  }
+  a:hover {
+    padding: 10px;
+    color: #fff;
+    background-color:  #4a90e2;
+  }
+}
+
+
+.studentContainer {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.titlenav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 75px 10px 25px;
+  background-color: #4a90e2;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.student li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 150px;
+}
+.student {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #DFDFDFB0;
+  color: #7D7D7D;
+}
+
+.detail {
+  margin: 0 auto;
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.detail:hover {
+  color: #0070f3;
+}
+
+.studentNum {
+  width: 30%;
+}
+
+.studentName {
+  width: 35%;
+}
+.input {
+  width: 35%;
+}
+.student:last-child {
+  border-bottom: none;
+}
+
+
+
+
+
+.yoklamaBtn {
+  background: none;
+  border-radius: 16px;
+  border: 1px solid #0070f3;
+  padding: 10px;
+  background-color: #0070f3;
+  color: #f9f9f9;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.yoklamaBtn:hover {
+  box-shadow: 10px 4px 5px #b9c8da;
+
+}
+
+.studentsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.studentDetail {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: 500px;
+  transition: transform 0.3s ease;
+}
+
+.studentDetail:hover {
+  transform: scale(1.05);
+}
+
+.studentDet {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.studentDet h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.studentDet h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.studentDet h3 {
+  font-size: 16px;
+  color: #888;
+}
+
+.contact {
+  margin-bottom: 15px;
+}
+
+.contact h3 {
+  font-size: 14px;
+  color: #444;
+}
+
+.activities,
+.notes {
+  margin-bottom: 15px;
+}
+
+.activities h3,
+.notes h3 {
+  font-size: 14px;
+  color: #555;
+}
+
